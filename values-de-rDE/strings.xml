@@ -14,13 +14,13 @@
     <string name="backup_restore_title">Kernel Sichern/Wiederherstellen</string>
     <string name="backup_restore_summary">Mächtiges Kernel Sichern und Wiederherstellen. Sichere Deinen aktuellen Kernel und spiele ihn jederzeit wieder ein ohne ein Recovery zu benötigen.</string>
     <string name="oc_uv_title">Frequenzen/Spannungen</string>
-    <string name="oc_uv_summary">Wenn Du Rambo spielen willst ist das der Platz für Dich. Nutze und missbrauche Dein Gerät in dem Du extreme und instabile Frequenzen und Spannungen nutzt.</string>
+    <string name="oc_uv_summary">Wenn Du Rambo spielen willst, ist das der Platz für Dich. Nutze und missbrauche Dein Gerät, in dem Du extreme und instabile Frequenzen und Spannungen nutzt.</string>
     <string name="kernel_settings_title">Eigene Kerneleinstellungen</string>
-    <string name="kernel_settings_summary">All Deine bevorzugten Einstellungen an einem Platz. Sie werden nur geladen wenn sie im Kernel gefunden werden.</string>
+    <string name="kernel_settings_summary">All Deine bevorzugten Einstellungen an einem Platz. Sie werden nur geladen, wenn sie im Kernel gefunden werden.</string>
     <string name="color_control_title">Farb Kontrolle</string>
     <string name="color_control_summary">Völlige Kontrolle über Deinen Screen. Erwecke den schlafenden Künstler in Dir und finde die perfekte Screen Kalibrierung für Deine Augen heraus.</string>
     <string name="power_modes_title">Power Modes</string>
-    <string name="power_modes_summary">Du denkst Du bist kreativ? Das ist der Punkt an dem alles passiert. Meistere die Kunst der eigenen Power Modes und erstelle Dein eigenes Monster!</string>
+    <string name="power_modes_summary">Du denkst Du bist kreativ? Das ist der Punkt, an dem alles passiert. Meistere die Kunst der eigenen Power Modes und erstelle Dein eigenes Monster!</string>
     <string name="device_monitor_title">Geräte Monitor</string>
     <string name="device_monitor_summary">Volles Real-Time Panel für Deinen Gerätestatus.</string>
 
@@ -35,19 +35,19 @@
     <string name="screen_off_max_freq_title">Maximale CPU Frequenz für abgeschalteten Bildschirm.</string>
     <string name="toast_screen_off_max_freq">Du kannst nicht noch einmal dieselbe Frequenz einstellen.</string>
     <string name="cpu_boot_title">Setze CPU Einstellungen beim Hochfahren</string>
-    <string name="cpu_boot_summary">Wenn Du diese Option auswählst werden CPU Frequenz und Governor beim Hochfahren gesetzt.</string>
+    <string name="cpu_boot_summary">Wenn Du diese Option auswählst, werden CPU Frequenz und Governor beim Hochfahren gesetzt.</string>
     <string name="governor_control_boot_title">Setze Governor Einstellungen beim hochfahren</string>
-    <string name="governor_control_boot_summary">Wenn Du diese Option auswählst werden Deine eigenen Einstellungen für den Governor beim Hochfahren gesetzt.</string>
+    <string name="governor_control_boot_summary">Wenn Du diese Option auswählst, werden Deine eigenen Einstellungen für den Governor beim Hochfahren gesetzt.</string>
     <string name="governor_control_error_toast">Dein Governor wird nicht von diesem Tool unterstützt.</string>
     <string name="voltages_summary">Schließe Dich der dunklen Seite an und experimentiere mit den Spannungen, sofern Dein Kernel dies unterstützt.</string>
     <string name="voltages_title">Spannungen</string>
 
     <!-- Kernel Settings Activity -->
     <string name="kernel_settings">Einstellungen für eigenen Kernel</string>
-    <string name="loud_summary">Von 0 zu 3 Deine Kopfhörer Lautstärke erhöhen.</string>
+    <string name="loud_summary">Deine Kopfhörer Lautstärke von 0 bis 20 erhöhen.</string>
     <string name="loud_title">Erhöhe Kopfhörer Lautstärke</string>
     <string name="tcp_summary">Du benötigst BusyBox um den TCP Algorithmus zu sehen und anzupassen.</string>
-    <string name="throttle_off_summary">ACHTUNG! Hiermit beendest Du die temperaturgesteuerte Drosselung komplett. Wenn diese deaktiviert ist wird Dein Gerät nicht gedrosselt wenn es zu warm wird und auch nicht heruntergefahren sobald 110ºC erreicht worden sind.</string>
+    <string name="throttle_off_summary">ACHTUNG! Hiermit beendest Du die temperaturgesteuerte Drosselung komplett. Wenn diese deaktiviert ist wird Dein Gerät nicht gedrosselt, wenn es zu warm wird und auch nicht heruntergefahren sobald 110ºC erreicht worden sind.</string>
     <string name="throttle_off_title">Temperaturgesteuerte Drosslung ausschalten</string>
     <string name="io_sched_title">IO Scheduler</string>
     <string name="input_touch_booster_title">Touch Eingabe Verstärker</string>
@@ -59,13 +59,13 @@
     <string name="events_off_title">Event Logs ausschalten</string>
     <string name="fast_charge_summary">Aktivieren um Dein Gerät am USB Port so schnell zu laden wie an einem AC Adapter.</string>
     <string name="fast_charge_title">Aktiviere schnelles USB Laden</string>
-    <string name="wifi_pm_summary">Aktiviere diese Option um das WiFi Signal auf Kosten einiger Batterieleistung zu verstärken. Nützlich für das Streamen wenn der Screen aus ist.</string>
+    <string name="wifi_pm_summary">Aktiviere diese Option um das WiFi Signal auf Kosten einiger Batterieleistung zu verstärken. Nützlich für das Streamen, wenn der Screen aus ist.</string>
     <string name="wifi_pm_title">Wi-Fi PM_FAST</string>
     <string name="blx_summary">Einstellung um die maximale Ladeleistung in Prozent des Akkus zu setzen.</string>
     <string name="blx_title">Akku Lebensverlängerer</string>
-    <string name="tegra_screen_dimmer_summary">Standardmäßig aktiviert sorgt es für längere Akkuleistung indem während des Abspielens von Videos der Kontrast und die Helligkeit verringert werden. Wenn Du maximale Qualität beim Abspielen von Videos möchtest deaktiviere diese Funktion.</string>
+    <string name="tegra_screen_dimmer_summary">Standardmäßig aktiviert sorgt es für längere Akkuleistung indem während des Abspielens von Videos der Kontrast und die Helligkeit verringert werden. Wenn Du maximale Qualität beim Abspielen von Videos möchtest, deaktiviere diese Funktion.</string>
     <string name="tegra_screen_dimmer_title">Tegra Screen Dimmer</string>
-    <string name="tcp_title">TCP Congestion Avoidance Algorithmus</string>
+    <string name="tcp_title">TCP Stau Verhinderungs Algorithmus</string>
     <string name="high_performance_summary">Dies verbessert die Klangklarheit.</string>
     <string name="high_performance_title">High Performance Sound aktiveren - nur für Kopfhörer</string>
     <string name="volume_boost_title">Volume Boost - nur für Kopfhörer</string>
@@ -130,7 +130,7 @@
     <string name="adaptive_brightness_title">Deaktiviere Inhaltsgesteuerte Helligkeit</string>
     <string name="trinity_contrast_summary">Original Implementation von Trinitys Kernel, welches es uns erlaubt den Kontrast für ein besseres Anzeigeergebnis zu tweaken.</string>
     <string name="trinity_contrast_title">Trinitys Kontrast Interface</string>
-    <string name="omap_gamma_summary">Interface von omapzoom welches es uns erlaubt die Bildschirm Gamma Einstellungen mit definierten Werten zu verändern. Funktioniert unabhängig vom oberen Interface.</string>
+    <string name="omap_gamma_summary">Interface von omapzoom, welches es uns erlaubt die Bildschirm Gamma Einstellungen mit definierten Werten zu verändern. Funktioniert unabhängig vom oberen Interface.</string>
     <string name="omap_gamma_title">OMAP Gamma Interface</string>
     <string name="color_profiles_category_title">Farb Profile</string>
 
@@ -170,12 +170,12 @@
     <string name="lean_kernel_dialog_stable_title">Lade aktuellsten stable Imoseyon Kernel herunter</string>
     <string name="lean_kernel_activity_title">LeanKernel Download</string>
     <string name="latest_exp_title">Aktuelle exp Version</string>
-    <string name="lean_stable_download_summary">Klicke hier um  Imoseyons stable Kernel zu flashen.</string>
+    <string name="lean_stable_download_summary">Klicke hier um Imoseyons stable Kernel zu flashen.</string>
     <string name="lean_exp_download_summary">Klicke hier um Imoseyons exp Kernel zu flashen.</string>
     <string name="lean_exp_download_title">Lade aktuellen exp Kernel</string>
 
     <!-- Power Modes Activity -->
-    <string name="power_modes_create_summary">Hier kannst Du Deine eigenen Power Modes erstellen welche auf Deine persönlichen Bedürfnisse zugeschnitten sind.</string>
+    <string name="power_modes_create_summary">Hier kannst Du Deine eigenen Power Modes erstellen, welche auf Deine persönlichen Bedürfnisse zugeschnitten sind.</string>
     <string name="power_modes_create_title">Erstelle eigenen Power Mode</string>
     <string name="power_modes_create_error_toast">Du kannst den Power Mode nicht speichern ohne alle Felder ausgefüllt zu haben.</string>
     <string name="pm_max_cpu_title">Max CPU Taktung</string>
@@ -188,7 +188,7 @@
     <string name="power_modes_button_delete">Löschen</string>
     <string name="pm_name_title">Name</string>
     <string name="power_modes_button_on_boot">Beim Booten setzen</string>
-    <string name="power_modes_button_on_boot_toast">Dieser Modus ist nun berechtigt beim Booten gesetzt zu werden wenn Du die beim Booten setzen weiter oben Checkbox aktivierst.</string>
+    <string name="power_modes_button_on_boot_toast">Dieser Modus ist nun berechtigt beim Booten gesetzt zu werden, wenn Du die "beim Booten setzen" Checkbox weiter oben aktivierst.</string>
     <string name="on_boot_title">Setze Power Mode beim Booten</string>
     <string name="on_boot_summary">Ausgewählt für das Setzen beim Booten:</string>
 
@@ -255,7 +255,7 @@
     <string name="stable_download_n10_summary">Lade franco.Kernel für Dein Nexus 10 herunter!</string>
     <string name="kernel_update_n10">Nexus 10 Kernel Download</string>
     <string name="busybox_warning">Tut mir leid aber Du benötigst BusyBox um diese Seite zu sehen. Dies ist eine Maßnahme gegen Force Closes. Du kannst BusyBox kostenlos über den Play Store beziehen.</string>
-    <string name="clear_app_data">"Warnung: hiermit werden alle Applikationsdaten gelöscht wie bei einer Neuinstallation - Du verlierst alle gespeicherten Einstellungen und Deine Lizenz wird zurückgesetzt , daher wird über den Play Store Dein Lizenzschlüssel abgefragt sobald Du die Applikation neu startest. Nachdem Du OK klickst wird die App geschlossen."</string>
+    <string name="clear_app_data">"Warnung: hiermit werden alle Applikationsdaten wie bei einer Neuinstallation gelöscht - Du verlierst alle gespeicherten Einstellungen und Deine Lizenz wird zurückgesetzt , daher wird über den Play Store Dein Lizenzschlüssel abgefragt sobald Du die Applikation neu startest. Nachdem Du OK klickst wird die App geschlossen."</string>
     <string name="clear_app_data_title">App Daten löschen</string>
     <string name="enable_all_load_threshold_summary">Ziel System Load um alle CPU Kerne zu aktivieren. Höhere Werte erschweren das Zuschalten von CPU Kernen, niedrigere Werte erleichtern es.</string>
     <string name="enable_load_threshold_summary">Schwellwert welcher für das Setzen eines einzelnen CPU Kerns zuständig ist. Höhere Werte erschweren das Zuschalten eines CPU Kerns, niedrigere Werte erleichtern es.</string>
@@ -263,23 +263,23 @@
     <string name="temp_threshold_summary">Dies ist das Temperatur Limit (in °Celsius) Deiner CPU, bevor diese gedrosselt wird um die Temperatur zu senken.</string>
     <string name="temp_threshold_title">Schwellwert für Temperatur Drosselung</string>
     <string name="io_tuning_title">IO Scheduler Tuning</string>
-    <string name="io_tuning_summary">WARNUNG: dieser Bereich enthält alle Optionen, um den IO Scheduler zu tunen. Er ist für FORTGESCHRITTENE Benutzer. Wenn Du die darin enthaltenen Einstellungen nicht verstehst, suche diese bitte in die Kernel-Dokumentation. Diese Werte werden NICHT beim Booten gesetzt, also kannst Du diese leicht zurücksetzen.</string>
+    <string name="io_tuning_summary">WARNUNG: dieser Bereich enthält alle Optionen, um den IO Scheduler zu tunen. Er ist für FORTGESCHRITTENE Benutzer. Wenn Du die darin enthaltenen Einstellungen nicht verstehst, suche diese bitte in der Kernel-Dokumentation. Diese Werte werden NICHT beim Booten gesetzt, also kannst Du diese leicht zurücksetzen.</string>
 
     <string name="gamma_title">Screen Gamma Einstellungen</string>
-    <string name="gamma_summary">Hier kannst du alle deine Gamma Einstellungen tweaken. Dies beinhaltet whites, mids, blacks, contrast, brightness, saturation und grays.</string>
+    <string name="gamma_summary">Hier kannst du alle deine Gamma Einstellungen tweaken. Dies beinhaltet Weißtöne, Mitten, Schwarztöne, Kontrast, Helligkeit, Sättigung und Grautöne.</string>
     <string name="cpu_freq_title">aktuelle CPU Frequenz</string>
     <string name="temperature_title">CPU Temperatur</string>
     <string name="gamma_defaults_summary">Dies hier setzt alle Gamma Werte auf den Standard zurück.</string>
     <string name="gamma_warning_title">WICHTIG</string>
     <string name="gamma_defaults_title">Standardwerte</string>
     <string name="gamma_category_title">Gamma Einstellungen</string>
-    <string name="grays">Grays</string>
-    <string name="mids">Mids</string>
-    <string name="blacks">Blacks</string>
-    <string name="contrast">Contrast</string>
-    <string name="brightness">Brightness</string>
-    <string name="saturation">Saturation</string>
-    <string name="whites">Whites</string>
+    <string name="grays">Grautöne</string>
+    <string name="mids">Mitten</string>
+    <string name="blacks">Schwarztöne</string>
+    <string name="contrast">Kontrast</string>
+    <string name="brightness">Helligkeit</string>
+    <string name="saturation">Sättigung</string>
+    <string name="whites">Weißtöne</string>
     <string name="gpu_oc_title">Max GPU Frequenz</string>
     <string name="lp_oc_title">Max Companion Core Frequenz</string>
     <string name="hotplug_control_title">Hotplug Control</string>
@@ -289,7 +289,7 @@
     <string name="enable_load_title">Schwellwert (threshold) für das in Betrieb nehmen eines einzelnen Kernes</string>
     <string name="disable_load_title">Schwellwert (threshold) für das Abschalten eines einzelnen Kernes</string>
     <string name="hotplug_mode_title">Kern Management Modus</string>
-    <string name="hotplug_mode_summary">Hotplug: Schaltet Kerne an/ab je nach Last.\nDual-Core: Es werden nur zwei Kerne betrieben egal wie hoch die Last ist.\nQuad-Core: alle vier Kerne sind ständig in Betrieb. Für Spiele geeignet.\nDies kann ein Aus- und wieder Anschalten des Bildschirms erfordern, um aktiv zu werden.</string>
+    <string name="hotplug_mode_summary">Hotplug: Schaltet Kerne an/ab je nach Last.\nDual-Core: Es werden nur zwei Kerne betrieben, egal wie hoch die Last ist.\nQuad-Core: alle vier Kerne sind ständig in Betrieb. Für Spiele geeignet.\nDies kann ein Aus- und wieder Anschalten des Bildschirms erfordern, um aktiv zu werden.</string>
     <string name="hotplug_category_title">Hotplug Control</string>
     <string name="clicky_summary">Einstellungsdialog, um die GAMMA Einstellungen zu tweaken</string>
     <string name="clicky_title">Tippe hier für GAMMA</string>
@@ -305,7 +305,7 @@
     <string name="title_volt_plus_25">+25 mV</string>
     <string name="title_volt_minus_25">-25 mV</string>
     <string name="summary_volt_plus_25">Erhöhe alle Spannungen um 25 mV.</string>
-    <string name="summary_volt_minus_25">Erniedrige alle Spannungen um 25 mV.</string>
+    <string name="summary_volt_minus_25">Verringere alle Spannungen um 25 mV.</string>
     <string name="please_reboot">Bitte starte neu, damit die Gamma Werte ordentlich zurückgesetzt werden können.</string>
 
 </resources>
