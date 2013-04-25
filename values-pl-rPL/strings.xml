@@ -325,4 +325,33 @@
 	<string name="green_array_summary">Ustawienia bieli, szarości, czerni i pośrednich dla krzywych GAMMA zielonego</string>
 	<string name="red_array_title">Czerwony</string>
 	<string name="red_array_summary">Ustawienia bieli, szarości, czerni i pośrednich dla krzywych GAMMA czerwonego</string>
+	<!-- NEW 25-04-13-->
+	<string name="save_the_profile">Zapisz profil</string>
+	<string name="delete_user_profiles_summary">UWAGA: ta opcja usunie wszystkie Twoje profile kolorów z karty sd.</string>
+	<string name="delete_user_profiles_title">Usuń wszystkie profile</string>
+	<string name="new_power_mode_title">Opcje Power-Mode</string>
+	<string name="save_button">Zapisz</string>
+	<string name="making_a_backup">Tworzenie kopii zapasowej</string>
+	<string name="controls">Kolory</string>
+	<string name="logs_settings">Ustawienia logów</string>
+	<string name="io_settings">Ustawienia I/O</string>
+	<string name="rate_me">Oceń aplikację!</string>
+	<string name="rate_button">Oceń naszą pracę</string>
+	<string name="rate_message">Twoja ocena pomaga mnie i tłumaczom, dzięki niej aplikacja może zostać zauważona a praca doceniona. Ocenienie nie zajmuje dużo czasu a sprawi wielką radość :) Dziękuję!</string>
+	<string name="delete_button">Usuń kopię zapasową</string>
+	<string name="restore_button">Przywróć i uruchom ponownie</string>
+	<string name="suspend_freq_title">Częstotliwość wstrzymania (wyłączony ekran)</string>
+	<string name="suspend_freq_summary">Gdy ekran jest wyłączony maksymalna częstotliwość będzie ograniczana do tej wartości.</string>
+	<string name="third_level_title">Niski próg obciążenia</string>
+	<string name="third_level_summary">Najniższy próg obciążenia. Gdy urządzenie jest w tym trybie wszystkie rdzenie znajdują się w trybie offline.</string>
+	<string name="second_level_title">Średni próg obciążenia</string>
+	<string name="second_level_summary">Obciąża tylko jeden rdzeń na raz. Jeśli obciążenie jest większe niż zadana wartość jeden rdzeń będzie włączany.</string>
+	<string name="first_level_title">Wysoki próg obciążania</string>
+	<string name="first_level_summary">Obciąża wszystkie rdzenie. Jeśli obciążenie jest większe niż zadana wartość będą włączane wszystkie rdzenie. Zakres 0 - 100.</string>
+	<string name="check_license_dialog">Sprawdzanie licencji aplikacji w sklepie Play…</string>
+	<string name="load_user_profiles_summary">Kliknij tutaj, aby załadować kilka profili kolorów niestandardowych, przetestowanych przez użytkowników mojego kernela / aplikacji - dziękuje wszystkim.</string>
+	<string name="load_user_profiles_title">Wczytaj presety kolorów</string>
+	<string name="system_monitor_title">Monitor systemu</string>
+	<string name="system_monitor_summary">Monitoruj obciążenie CPU,RAM,IO i sieci z pięknym interfacem. Ta funkcjonalność jest dziełem Christiana Göllnera. Więcej informacji w środku.  </string>
+	<string name="franco_kernel_activity_download_title">Pobrane</string>
 </resources>
