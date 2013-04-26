@@ -8,7 +8,7 @@
     <string name="device_supported_title">Status Deines Geräts</string>
     <string name="device_supported_summary">Dein Gerät wird:</string>
     <string name="franco_kernel_title">franco.Kernel Updater</string>
-    <string name="franco_kernel_summary">Hier kannst Du neue Versionen des franco.Kernel herunterladen und auf Wunsch flashen.</string>
+    <string name="franco_kernel_summary">Hier kannst Du auf neue Versionen des franco.Kernel prüfen, ihn herunterladen und auf Wunsch flashen.</string>
     <string name="lean_kernel_title">LeanKernel Updater</string>
     <string name="lean_kernel_summary">Wenn Du hier klickst bist Du ein offizieller Verräter, aber Du bist trotzdem in der Lage Imoseyons Kernel zu nutzen.</string>
     <string name="backup_restore_title">Kernel Sichern/Wiederherstellen</string>
@@ -44,14 +44,14 @@
 
     <!-- Kernel Settings Activity -->
     <string name="kernel_settings">Einstellungen für eigenen Kernel</string>
-    <string name="loud_summary">Deine Kopfhörer Lautstärke von 0 bis 20 erhöhen.</string>
+    <string name="loud_summary">Dies erhöht deine Kopfhörer Lautstärke. Bevor Du diesen Wert änderst, solltest Du deine Musik stoppen. Pass auf Deine Ohren auf, es kann sehr laut werden!</string>
     <string name="loud_title">Erhöhe Kopfhörer Lautstärke</string>
     <string name="tcp_summary">Du benötigst BusyBox um den TCP Algorithmus zu sehen und anzupassen.</string>
-    <string name="throttle_off_summary">ACHTUNG! Hiermit beendest Du die temperaturgesteuerte Drosselung komplett. Wenn diese deaktiviert ist wird Dein Gerät nicht gedrosselt, wenn es zu warm wird und auch nicht heruntergefahren sobald 110ºC erreicht worden sind.</string>
+    <string name="throttle_off_summary">ACHTUNG! Hiermit beendest Du die temperaturgesteuerte Drosselung komplett. Wenn diese deaktiviert ist wird Dein Gerät nicht gedrosselt, wenn es zu warm wird und auch nicht heruntergefahren sobald es 110ºC erreicht.</string>
     <string name="throttle_off_title">Temperaturgesteuerte Drosslung ausschalten</string>
     <string name="io_sched_title">IO Scheduler</string>
     <string name="input_touch_booster_title">Touch Eingabe Verstärker</string>
-    <string name="fsync_summary">Wenn diese Option aktiv ist, hat das Gerät eine bessere Datenintegrität jedoch weniger IO Leistung. Wenn sie deaktiviert ist, hat es schlechtere Daten Integrität, dafür jedoch bessere IO Geschwindigkeiten.</string>
+    <string name="fsync_summary">Wenn diese Option aktiv ist, hat das Gerät eine bessere Datenintegrität jedoch weniger IO Geschwindigkeit. Wenn sie deaktiviert ist, hat es schlechtere Daten Integrität, dafür jedoch bessere IO Geschwindigkeiten.</string>
     <string name="fsync_title">fsync einschalten</string>
     <string name="logger_off_summary">Dies schaltet den Logger (logcat) aus. Evtl. minimale Steigerung der Geschwindigkeit/Batterie Leistung. Das Debuggen von Apps funktioniert mit aktivierter Funktion nicht mehr.</string>
     <string name="logger_off_title">Logger ausschalten</string>
@@ -61,20 +61,20 @@
     <string name="fast_charge_title">Aktiviere schnelles USB Laden</string>
     <string name="wifi_pm_summary">Aktiviere diese Option um das WiFi Signal auf Kosten einiger Batterieleistung zu verstärken. Nützlich für das Streamen, wenn der Screen aus ist.</string>
     <string name="wifi_pm_title">Wi-Fi PM_FAST</string>
-    <string name="blx_summary">Einstellung um die maximale Ladeleistung in Prozent des Akkus zu setzen.</string>
+    <string name="blx_summary">Einstellung um die maximale Ladehöhe (in Prozent) des Akkus zu setzen.</string>
     <string name="blx_title">Akku Lebensverlängerer</string>
     <string name="tegra_screen_dimmer_summary">Standardmäßig aktiviert sorgt es für längere Akkuleistung indem während des Abspielens von Videos der Kontrast und die Helligkeit verringert werden. Wenn Du maximale Qualität beim Abspielen von Videos möchtest, deaktiviere diese Funktion.</string>
     <string name="tegra_screen_dimmer_title">Tegra Screen Dimmer</string>
     <string name="tcp_title">TCP Stau Verhinderungs Algorithmus</string>
     <string name="high_performance_summary">Dies verbessert die Klangklarheit.</string>
     <string name="high_performance_title">High Performance Sound aktiveren - nur für Kopfhörer</string>
-    <string name="volume_boost_title">Volume Boost - nur für Kopfhörer</string>
+    <string name="volume_boost_title">Lautstärke Verstärkung - nur für Kopfhörer</string>
     <string name="bootanimation_category_title">Eigene Boot Animation</string>
-    <string name="bootanimation_summary">Eigene franco.Kernel Boot Animation erstellt von rascarlo. Du benötigst eine Internetverbindung.</string>
+    <string name="bootanimation_summary">Eigene franco.Kernel Boot Animation erstellt von rascarlo. Du benötigst hierfür eine Internetverbindung.</string>
     <string name="bootanimation_title">franco.Kernel Boot Animation</string>
     <string name="download_path_category_title">Kernel Download Pfad</string>
     <string name="download_path_title">Eigener Download Pfad</string>
-    <string name="toast_volume_boost">Du kannst nicht weniger als 0 oder mehr als 62 einstellen Du gerissener Bastard!</string>
+    <string name="toast_volume_boost">Du kannst nicht weniger als 0 oder mehr als 62 eingeben Du gerissener Bastard!</string>
 
     <!-- Device Monitor Activity -->
     <string name="monitor_category_title">Geräte Monitor</string>
@@ -115,22 +115,22 @@
     <!-- ColorControl Activity -->
     <string name="profile_confirmation_text">Sichern</string>
     <string name="profile_dialog_title">Name des Profils:</string>
-    <string name="multipliers_dialog_title">Farb Multiplier</string>
+    <string name="multipliers_dialog_title">Farb Multiplizierer</string>
     <string name="gamma_dialog_title">RGB Gamma</string>
     <string name="colorcontrol_category_title">Farb Kontrolle</string>
     <string name="color_multiplier_summary">Verändere Deine Bildschirm Farbeinstellungen, um diese deinem Farbempfinden anzupassen</string>
     <string name="color_multiplier_title">Farb Multiplikator</string>
     <string name="color_gamma_summary">Tweake Deine RGB Gamma Werte.</string>
     <string name="color_gamma_title">RGB Gamma</string>
-    <string name="color_profiles_summary">Dies sichert Deine Farb Multiplier und RGB Gamma Werte um einfach auf Grund Deiner Laune/Situation zu wechseln.</string>
+    <string name="color_profiles_summary">Dies sichert Deine Farb Multiplizierer und RGB Gamma Werte um einfach je nach Laune/ Situation zu wechseln.</string>
     <string name="color_profiles_title">Sichere ein Farb Profil</string>
     <string name="load_profiles_summary">Prüfe und lade Deine vorhergehend gesicherten Farb Profile.</string>
     <string name="load_profiles_title">Lade Dein Farb Profil</string>
-    <string name="adaptive_brightness_summary">Inhaltsgesteuerte Helligkeit passt die Helligkeit dem Bildschirminhalt an (Weiß + Text).</string>
+    <string name="adaptive_brightness_summary">Inhaltsgesteuerte Helligkeit passt die Helligkeit dem Bildschirminhalt an (Weißtöne + Text).</string>
     <string name="adaptive_brightness_title">Deaktiviere Inhaltsgesteuerte Helligkeit</string>
     <string name="trinity_contrast_summary">Original Implementation von Trinitys Kernel, welches es uns erlaubt den Kontrast für ein besseres Anzeigeergebnis zu tweaken.</string>
     <string name="trinity_contrast_title">Trinitys Kontrast Interface</string>
-    <string name="omap_gamma_summary">Interface von omapzoom, welches es uns erlaubt die Bildschirm Gamma Einstellungen mit definierten Werten zu verändern. Funktioniert unabhängig vom oberen Interface.</string>
+    <string name="omap_gamma_summary">Interface von omapzoom, welches es uns erlaubt die Bildschirm Gamma Einstellungen innerhalb definierter Werten zu verändern. Funktioniert unabhängig vom oberen Interface.</string>
     <string name="omap_gamma_title">OMAP Gamma Interface</string>
     <string name="color_profiles_category_title">Farb Profile</string>
 
@@ -141,7 +141,7 @@
     <string name="restore_kernel_title">Kernel wiederherstellen</string>
     <string name="backup_kernel">Das Backup wird nach /sdcard/kernel_backups gesichert. Bitte nutze keine Leerzeichen für den Dateinamen.</string>
     <string name="clicky_to_backup">Klicke zum sichern</string>
-    <string name="backup_title1">Hinzugefügt:</string>
+    <string name="backup_title1">Hinzugefügt: </string>
     <string name="backup_title2">Klicke zum Wiederherstellen oder löschen.</string>
     <string name="backup_toast">Was versuchst Du hier? Dieses Feature wird von Deinem Gerät nicht unterstützt.</string>
 
@@ -154,7 +154,8 @@
     <string name="franco_kernel_rebootDialog_negativeButton">Nö.</string>
     <string name="latest_stable_summary">Laden…</string>
     <string name="latest_nightly_summary">Laden…</string>
-    <string name="franco_kernel_activity_title">franco.Kernel Download</string>
+    <string name="franco_kernel_activity_title">Information</string>
+    <string name="franco_kernel_activity_download_title">Downloads</string>
     <string name="current_version_title">Installierte Version</string>
     <string name="nightly_version_title">Installierte nightly Version</string>
     <string name="latest_stable_title">Aktuellste stable Version</string>
@@ -212,14 +213,14 @@
 
     <!-- FrancoKernelSGS3 Activity -->
     <string name="franco_kernel_sgs3_title">franco.Kernel für Galaxy S3</string>
-    <string name="stable_download_sgs3_title">Lade aktuellen Kernel herunter</string>
+    <string name="stable_download_sgs3_title">Lade aktuellen stable Kernel herunter</string>
 
     <!-- FrancoKernelOneX Activity -->
     <string name="stable_download_onex_title">Klicke hier um Autoflash oder den .zip Download auszuwählen.</string>
     <string name="readme_title">LIES DAS!!!</string>
     <string name="readme_summary">Es ist sehr wichtig das nun zu lesen!</string>
     <string name="franco_kernel_onex_title">franco.Kernel für das One X</string>
-    <string name="checkbox_text">nicht nochmal anzeigen</string>
+    <string name="checkbox_text">Nicht nochmal anzeigen</string>
 
     <!-- New PM Dialog -->
     <string name="new_pm_name_text">Name:</string>
@@ -239,7 +240,6 @@
     <string name="license_checkz_title">Fehler beim Prüfen der Lizenz</string>
     <string name="license_checkz_message">Es gibt ein Problem beim Überprüfen der Applikations Lizenz. Klicke auf wiederholen (retry) wenn Du die App gekauft hast, oder auf kaufen (buy) wenn Du versuchst hast mich zu betrügen.</string>
     <string name="preview_img">preview_img</string>
-
     <string name="error_vibration_toast">Du kannst nur zwischen 0 und 100 wählen.</string>
     <string name="vibration_summary">Hiermit kontrollierst Du die Stärke der haptischen Rückmeldung - Stock Kernel Einstellung ist 70, wenn Du jedoch franco.Kernel nutzt ist es 100.</string>
     <string name="vibration_title">Stärke der haptischen Rückmeldung (Vibration)</string>
@@ -264,7 +264,6 @@
     <string name="temp_threshold_title">Schwellwert für Temperatur Drosselung</string>
     <string name="io_tuning_title">IO Scheduler Tuning</string>
     <string name="io_tuning_summary">WARNUNG: dieser Bereich enthält alle Optionen, um den IO Scheduler zu tunen. Er ist für FORTGESCHRITTENE Benutzer. Wenn Du die darin enthaltenen Einstellungen nicht verstehst, suche diese bitte in der Kernel-Dokumentation. Diese Werte werden NICHT beim Booten gesetzt, also kannst Du diese leicht zurücksetzen.</string>
-
     <string name="gamma_title">Screen Gamma Einstellungen</string>
     <string name="gamma_summary">Hier kannst du alle deine Gamma Einstellungen tweaken. Dies beinhaltet Weißtöne, Mitten, Schwarztöne, Kontrast, Helligkeit, Sättigung und Grautöne.</string>
     <string name="cpu_freq_title">aktuelle CPU Frequenz</string>
@@ -307,5 +306,45 @@
     <string name="summary_volt_plus_25">Erhöhe alle Spannungen um 25 mV.</string>
     <string name="summary_volt_minus_25">Verringere alle Spannungen um 25 mV.</string>
     <string name="please_reboot">Bitte starte neu, damit die Gamma Werte ordentlich zurückgesetzt werden können.</string>
+    <string name="red_array_summary">Tweake Rot: Weißtöne, Grautöne, Schwarztöne und Mitten für die Gamma Kurve.</string>
+    <string name="red_array_title">ROT</string>
+    <string name="green_array_summary">Tweak Grün: Weißtöne, Grautöne, Schwarztöne und Mitten für die Gamma Kurve.</string>
+    <string name="green_array_title">GRÜN</string>
+    <string name="blue_array_summary">Tweak Blau: Weißtöne, Grautöne, Schwarztöne und Mitten für die Gamma Kurve.</string>
+    <string name="blue_array_title">BLAU</string>
+    <string name="others_array_summary">Tweake Sättigung, Helligkeit und Kontrast für das RGB Spektrum.</string>
+    <string name="others_array_title">Versch. Gamma Einstellungen</string>
+    <string name="gain_level_summary">Dies kontrolliert die Verstärkung für das Headset. Könnte die Tonausgabe für die Kopfhörer löschen.</string>
+    <string name="gain_level_title">Erhöhe Headset Lautstärke</string>
+    <string name="system_monitor_summary">Überwache Deinen CPU Last Status, Deine RAM Werte, Dein IO und deine Netzwerk Last mit einer schönen Oberfläche. Diese Funktion wurde von Christian Göllner programmiert und freundlicherweise bereit gestellt. More Informationen innen.</string>
+    <string name="system_monitor_title">System Monitor</string>
+    <string name="load_user_profiles_title">Lade Farb Profil Voreinstellungen</string>
+    <string name="load_user_profiles_summary">Drücke hier um eine Menge eigener Farb Profile zu laden, die von Nutzern meines Kernels/ meiner App erstellt wurden - Danke euch allen.</string>
+    <string name="check_license_dialog">Prüfe Programmlizens von Google Play…</string>
+    <string name="first_level_summary">Lade Schwellwert um alle Kerne online zu stellen. Wenn das Gerät unter einer größeren Last läuft, als die eingestellte, gehen alle Kerne online. Er variiert zwischen 0 und 100.</string>
+    <string name="first_level_title">Hohe Last Schwellwert</string>
+    <string name="second_level_summary">Lade Schwellwert um einen Kern online zu stellen. Wenn das Gerät unter einer größeren Last läuft, als die eingestellte, geht ein Kerne online.</string>
+    <string name="second_level_title">Mittlere Last Schwellwert</string>
+    <string name="third_level_summary">Niedrigster Last Schwellwert. Wenn das Gerät unter diesem liegt, gehen alle Kerne offline.</string>
+    <string name="third_level_title">Niedrige Last Schwellwert</string>
+    <string name="suspend_freq_summary">Wenn der Gerätebildschirm aus ist, wird die maximale Frequenz bei diesem Wert gekappt.</string>
+    <string name="suspend_freq_title">Ruhezustand Frequenz</string>
+    <string name="restore_button">Wiederherstellen &amp; Neustarten</string>
+    <string name="delete_button">Lösche das Backup</string>
+    <string name="rate_title">Bewerte diese App!</string>
+    <string name="rate_message">Deine Bewertung hilft mir und der App bekannt zu werden! Es kostet Dich nur zwei Minuten deiner Zeit eine Bewertung zu hinterlassen und mich glücklich zu machen :) Ich danke Dir!</string>
+    <string name="rate_button">Bewerte mich</string>
+    <string name="rate_me">Bewerte diese App</string>
+    <string name="io_settings">I/O Einstellungen</string>
+    <string name="logs_settings">Log Einstellungen</string>
+    <string name="controls">Kontrollen</string>
+    <string name="making_a_backup">Ein Backup machen</string>
+    <string name="minus">-</string>
+    <string name="plus">+</string>
+    <string name="save_button">Speichern</string>
+    <string name="new_power_mode_title">Power-Mode Herstellungsfabrik</string>
+    <string name="delete_user_profiles_title">Lösche alle Profile</string>
+    <string name="delete_user_profiles_summary">WARNUNG: Dies löscht alle Deine Farb Profile von der SD Karte.</string>
+    <string name="save_the_profile">Speicher das Profil</string>
 
 </resources>
