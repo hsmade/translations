@@ -13,7 +13,7 @@
     <string name="backup_restore_summary">Užitečné zálohování/Obnova kernelu. Možno uložit aktuální kernel a následně ho kdykoliv načíst bez nutnosti přecházet do recovery.</string>
     <string name="oc_uv_title">Frekvence/Napětí</string>
     <string name="oc_uv_summary">Místo vhodné pro všechny experimentátory. Umožní používat a přetěžovat zařízení díky extrémním frekvencím a voltážím.</string>
-    <string name="kernel_settings_title">Vlastní nastavení kernelu</string>
+    <string name="kernel_settings_title">Různá nastavení</string>
     <string name="kernel_settings_summary">Všechna oblíbená nastavení na jednom místě. Tato nastavení jsou načtena, pokud je kernel podporuje.</string>
     <string name="color_control_title">Nastavení barev</string>
     <string name="color_control_summary">Perfektní kontrola nad AMOLED obrazovkou. Díky nejrůznějším nastavením je možné dosáhnout nejlepšího výsledku.</string>
@@ -221,7 +221,7 @@
     <string name="power_presets_error">Na tomto zařízení není tato funkcionalita podporována. Nejspíš bude k dispozici v budoucnu.</string>
     <string name="license_checkz_title">Chyba kontroly licence</string>
     <string name="license_checkz_message">Při kontrole licence došlo k chybě. Je možné zkusit znovu, pokud byla aplikace řádně zakoupená. Pokud se snažíte autora ošálit, je nutné aplikaci řádnéí zakoupit!</string>
-    
+
     <string name="error_vibration_toast">Je možné použít pouze hodnoty z rozsahu 0 až 100.</string>
     <string name="vibration_summary">Nastavuje sílu hmatové odezvy. Hodnota výchozího kernelu je 70, franco.Kernel používá 100.</string>
     <string name="vibration_title">Síla hmatové odezvy (vibrace)</string>
@@ -268,8 +268,8 @@
     <string name="cpuquiet_title">CPUQuiet Governor</string>
     <string name="hotplug_control_summary">Tweak your device\'s parameters to control the CPU cores management.</string>
     <string name="enable_all_load_title">Práh zapnutí všech jader</string>
-    <string name="enable_load_title">Práh zapnutí jednoho jádra</string>
-    <string name="disable_load_title">Práh vypnutí jednoho jádra</string>
+    <string name="enable_load_title">Prahová hodnota pro zapnutí jednoho jádra</string>
+    <string name="disable_load_title">Prahová hodnota pro vypnutí jednoho jádra</string>
     <string name="hotplug_mode_title">Režim řízení jader</string>
     <string name="hotplug_mode_summary">Hotplug: zapíná/vypíná jádra na základě systémové zátěže.\nDual-Core: chová se jako 2-jádrové zařízení nehledě na zatížení systému.\nQuad-Core: 4 jádra jsou stále zapnuta. Vhodné pro hraní her.\nMůže vyžadovat vypnutí a zapnutí obrazovky pro správnou aplikaci.</string>
     <string name="hotplug_category_title">Ovládání Hotplug</string>
@@ -281,9 +281,9 @@
     <string name="sampling_rate_title">Vzorkování</string>
     <string name="su_dialog_summary">Pro práci s touto aplikací je třeba mít práva roota. Zavřít a zkusit znovu.</string>
     <string name="su_dialog_title">Není root?</string>
-    <string name="tvRed">Červená:</string>
-    <string name="tvGreen">Zelená:</string>
-    <string name="tvBlue">Modrá:</string>
+    <string name="tvRed">Červená</string>
+    <string name="tvGreen">Zelená</string>
+    <string name="tvBlue">Modrá</string>
     <string name="title_volt_plus_25">+25 mV</string>
     <string name="title_volt_minus_25">-25 mV</string>
     <string name="summary_volt_plus_25">Zvýšit všchny voltáže o 25 mV.</string>
@@ -299,4 +299,34 @@
     <string name="others_array_title">Ostatní nastavení gammy</string>
     <string name="gain_level_summary">Ovládá úrověn zesílení sluchátek.</string>
     <string name="gain_level_title">Zesílení sluchátek.</string>
+    <string name="system_monitor_summary">Sledovat stav zátěže CPU, paměti, IO a sítě pomocí krásného uživatelského rozhraní. Tato funkcionalita je naprogramována a darována vývojářem Christianem Göllenerem. Vice informací uvnitř.</string>
+    <string name="system_monitor_title">Sledování systému</string>
+    <string name="load_user_profiles_title">Načíst přednastavení barev</string>
+    <string name="load_user_profiles_summary">Kliknutím zde je možné načíst spoustu vlastních profilů barev od uživatelů kernelu. Všem patří velký dík.</string>
+    <string name="check_license_dialog">Kontrola licence aplikace z Google Play…</string>
+    <string name="first_level_summary">Prahová hodnota zátěže pro zapnutí všech jader. Když je zařízení pod zátěží větší než tato hodnota, všechny jádra budou zapnuty. Rozsah je mezi 0 a 100.</string>
+    <string name="first_level_title">Prahová hodnota vysoké zátěže</string>
+    <string name="second_level_summary">Prahová hodnota zatěže pro zapnutí právě jednoho jádra. Když je zatížení vyšší než tato hodnota, jádro se zapne.</string>
+    <string name="second_level_title">Prahová hodnota střední zátěže</string>
+    <string name="third_level_summary">Prahová hodnota nejnižší zátěže. Když je zařízení pod tímto zatížením, všechny jádra budou vypnuty.</string>
+    <string name="third_level_title">Prahová hodnota nízké zátěže</string>
+    <string name="suspend_freq_summary">Když je obrazovka zařízení vypnutá, maximální frekvence bude nastavena na tuto hodnotu.</string>
+    <string name="suspend_freq_title">Frekvence pozastavení</string>
+    <string name="restore_button">Obnovit a restartovat</string>
+    <string name="delete_button">Smazat zálohu</string>
+    <string name="rate_title">Ohodnotit tuto aplikaci!</string>
+    <string name="rate_message">Hodnocení pomůže autorovi a také aplikaci ke zviditelnění! Zabere to 2 minuty života a autora to učiní neskonale šťastným :) Díky!</string>
+    <string name="rate_button">Ohodnotit autora</string>
+    <string name="rate_me">Ohodnotit tuto aplikaci</string>
+    <string name="io_settings">Nastavení I/O</string>
+    <string name="logs_settings">Nastavení logovoání</string>
+    <string name="controls">Ovládání</string>
+    <string name="making_a_backup">Vytváření zálohy</string>
+    <string name="minus">-</string>
+    <string name="plus">+</string>
+    <string name="save_button">Uložit</string>
+    <string name="new_power_mode_title">Továrna na režimy napájení</string>
+    <string name="delete_user_profiles_title">Smazat všechny profily</string>
+    <string name="delete_user_profiles_summary">POZOR: smaže všechny profily barev z adresáře /sdcard.</string>
+    <string name="save_the_profile">Uložit profil</string>
 </resources>
