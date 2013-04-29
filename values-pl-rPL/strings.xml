@@ -349,7 +349,7 @@
 	<string name="first_level_title">Wysoki próg obciążania</string>
 	<string name="first_level_summary">Obciąża wszystkie rdzenie. Jeśli obciążenie jest większe niż zadana wartość będą włączane wszystkie rdzenie. Zakres 0 - 100.</string>
 	<string name="check_license_dialog">Sprawdzanie licencji aplikacji w sklepie Play…</string>
-	<string name="load_user_profiles_summary">Kliknij tutaj, aby załadować kilka profili kolorów niestandardowych, przetestowanych przez użytkowników mojego kernela / aplikacji - dziękuje wszystkim.</string>
+	<string name="load_user_profiles_summary">Kliknij tutaj, aby załadować kilka profili kolorów niestandardowych, przetestowanych przez użytkowników mojego kernela / aplikacji - dziękuję wszystkim.</string>
 	<string name="load_user_profiles_title">Wczytaj presety kolorów</string>
 	<string name="system_monitor_title">Monitor systemu</string>
 	<string name="system_monitor_summary">Monitoruj obciążenie CPU,RAM,IO i sieci z pięknym interfacem. Ta funkcjonalność jest dziełem Christiana Göllnera. Więcej informacji w środku.  </string>
